@@ -18,7 +18,7 @@ router
 router
     .route('/:id')
     .get(getPizzaById)
-    .post(updatePizza)
+    .put(updatePizza)
     .delete(deletePizza);
 
 module.exports = router;
